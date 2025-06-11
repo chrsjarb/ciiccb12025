@@ -2,7 +2,6 @@ package TaskSheet.tasksheet_1_3_1;
 
 import java.util.Arrays;
 
-// Base class: Afritada
 class Afritada {
 
     public String[] getIngredients() {
@@ -14,7 +13,6 @@ class Afritada {
     }
 }
 
-// Mechado extends Afritada
 class Mechado extends Afritada {
 
     @Override 
@@ -33,7 +31,6 @@ class Mechado extends Afritada {
     }
 }
 
-// Menudo extends Mechado
 class Menudo extends Mechado {
 
     @Override 
@@ -53,7 +50,6 @@ class Menudo extends Mechado {
     }
 }
 
-// Caldereta extends Afritada
 class Caldereta extends Afritada {
 
     @Override 
@@ -75,7 +71,6 @@ class Caldereta extends Afritada {
     }
 }
 
-// Only one public class — with the main() method
 public class AfritadaTest {
     public static void main(String[] args) {
         Afritada meal1 = new Afritada();
